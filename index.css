@@ -1,0 +1,110 @@
+
+html{
+    background-image: linear-gradient(to right, #5dd5c7, #4084c4);
+    color: rgb(255, 255, 255);
+    overflow-x: hidden; 
+    scroll-behavior: smooth;   
+}
+
+h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    gap: 15%;
+    margin-top: 5%;
+    /* font-family: ; */    
+    font-family: 'Rubik Doodle Shadow', system-ui;
+
+    
+}
+.profile h1{
+    font-size: 2.5rem;
+}
+
+.profile img{
+    height: 25rem;
+}
+
+
+header ul , header li{
+    list-style-type: none;
+}
+header ul{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    justify-content: space-around;
+}
+header{
+    /* background-color: white; */
+    color: white;
+    background-image: linear-gradient(to right, #70fffd, #2942bc);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    margin-top: -.6rem;
+    width: 100vw;
+    margin-left: -.4rem;
+    margin-right: -.4rem;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.proj1{
+    margin-left: 5%;
+}
+
+.deploy-github{
+    display: flex;
+    gap: 2%;
+    margin-left: 5%;
+}
+
+.proj-text,.minor-proj{
+    margin-left: 2%;
+}
+.minor-proj a{
+    margin-left: 4%;
+
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.div-ul-li ul li{
+    margin-left: 4%;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 1rem;
+    border-top: 0px solid white;
+    width: 20%;
+    height: 4%;
+    padding-left: 1%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+form div{
+    display: flex;
+    gap: 1rem;
+}
