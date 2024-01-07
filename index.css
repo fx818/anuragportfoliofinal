@@ -136,26 +136,6 @@ form div{
     gap: 1rem;
 }
 
-@media (max-width:700px){
-    .profile{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-    .project{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    form input{
-        width: 50%;
-    }
-}
-
-@media (max-width:450px){
-    .profile img{
-        height: 20rem;
-    }
-}
 
 .project h2 , .minor-proj h2{
     text-decoration: underline;
@@ -175,4 +155,28 @@ form div{
     cursor: pointer;
     border-radius: 5px;
     transition: all ease .2s;
+}
+
+
+
+
+@media (max-width:700px){
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    form input{
+        width: 50%;
+    }
+}
+
+@media (max-width:450px){
+    .profile img{
+        height: 20rem;
+    }
 }
