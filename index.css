@@ -19,15 +19,36 @@ h1{
     margin-top: 5%;
     /* font-family: ; */    
     font-family: 'Rubik Doodle Shadow', system-ui;
-
-    
 }
+
+header ul a{
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+
+header ul a:hover{
+    background-color: white;
+    color: black;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    border-radius: 1rem;
+    transition: all ease-in .25s;
+}
+
+
 .profile h1{
     font-size: 2.5rem;
 }
 
 .profile img{
     height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px black;
 }
 
 
@@ -91,10 +112,16 @@ a{
 input{
     background-color: transparent;
     border-radius: 1rem;
+    border: 2px solid white;
     border-top: 0px solid white;
+    border-left: 0px solid white;
     width: 20%;
     height: 4%;
     padding-left: 1%;
+    
+}
+input::placeholder{
+    color: white;
 }
 
 form{
@@ -128,4 +155,24 @@ form div{
     .profile img{
         height: 20rem;
     }
+}
+
+.project h2 , .minor-proj h2{
+    text-decoration: underline;
+}
+
+.deploy-github span{
+    border: 1px solid white;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+
+.deploy-github span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease .2s;
 }
