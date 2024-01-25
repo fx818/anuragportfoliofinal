@@ -29,7 +29,9 @@ h1{
 header{
     position: sticky;
     top: 0;
-    border-bottom: 1px solid white;
+    /* top: 2.5rem; */
+    z-index: 1;
+    border-bottom: 1px solid #92cee2;
 }
 
 header ul a{
@@ -37,6 +39,8 @@ header ul a{
     padding-right: 1rem;
     padding-top: .2rem;
     padding-bottom: .2rem;
+    color: #92cee2;
+
 }
 
 
@@ -114,12 +118,17 @@ a{
 
 }
 .project{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 15vw;
-    row-gap: 15vh;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* column-gap: 15vw; */
+    /* row-gap: 15vh; */
+    /* justify-content: center; */
     /* grid-template-columns: 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    
 }
 
 
@@ -181,6 +190,25 @@ form div{
 }
 
 
+.proj1 img{
+    height: 25vh;
+}
+
+.textimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vw;
+}
+.textimg img{
+    /* rotate: -10deg; */
+    transform: skew(-10deg);
+
+}
+
+
+
+
 
 
 @media (max-width:700px){
@@ -201,5 +229,14 @@ form div{
 @media (max-width:450px){
     .profile img{
         height: 20rem;
+    }
+}
+
+
+@media (max-width:650px){
+    .project .textimg{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vw;
     }
 }
